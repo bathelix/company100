@@ -1,0 +1,25 @@
+body {
+    padding-left: 50px;
+}
+
+#foodar {
+    padding-left:75px;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 1.25em;
+}
+
+input {
+    font-size: 1.5em;
+}
+
+input[type=submit] {
+    padding:10px 25px; 
+    background:rgb(154, 192, 153); 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 8px; 
+}
