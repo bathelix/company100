@@ -1,9 +1,12 @@
 body {
-    padding-left: 50px;
+    margin: 0;
 }
 
+.main {
+    padding-left: 50px;
+}
 h1 {
-   
+    
     font-size: 3em;
     text-decoration: underline;
     padding-bottom: 75px;
@@ -34,6 +37,7 @@ input[type=submit] {
 
 form {
     display: flex;
+    padding-bottom: 50px;
     
 }
 
@@ -43,4 +47,32 @@ form {
 
 .detail2 {
     flex: 2;
+}
+
+/* Footer */
+
+.footer {
+    background: lightgray;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+}
+
+
+
+#ftr-wrap {
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+.col {
+    flex: 1;
+   
+}
+
+.copyright {
+    text-align: center;
 }
