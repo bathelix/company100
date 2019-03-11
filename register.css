@@ -28,7 +28,7 @@ input {
 
 input[type=submit] {
     padding:10px 25px; 
-    background:rgb(154, 192, 153); 
+    background:rgb(63, 81, 245); 
     border:0 none;
     cursor:pointer;
     border-radius: 8px; 
@@ -52,7 +52,7 @@ form {
 /* Footer */
 
 .footer {
-    background: lightgray;
+    background: black;
     padding: 10px;
 }
 ul {
@@ -75,4 +75,5 @@ ul {
 
 .copyright {
     text-align: center;
+    color: white;
 }
