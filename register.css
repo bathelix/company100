@@ -2,18 +2,25 @@ body {
     padding-left: 50px;
 }
 
-#foodar {
-    padding-left:75px;
+h1 {
+   
     font-size: 3em;
     text-decoration: underline;
+    padding-bottom: 75px;
+    padding-top:25px;
 }
 
+h2 {
+    font-size: 2em;
+}
 .title {
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 input {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    padding:5px;
+    vertical-align: text-top;
 }
 
 input[type=submit] {
@@ -22,4 +29,18 @@ input[type=submit] {
     border:0 none;
     cursor:pointer;
     border-radius: 8px; 
+}
+
+
+form {
+    display: flex;
+    
+}
+
+.detail1 {
+    flex: 1;
+}
+
+.detail2 {
+    flex: 2;
 }
